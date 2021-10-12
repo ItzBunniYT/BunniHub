@@ -5,7 +5,7 @@ const chalk  = require("chalk");
 
 module.exports = function () {
     const docDir = path.join(os.homedir() + "/Documents");
-    const confDir = path.join(docDir, "/node-hub");
+    const confDir = path.join(docDir, "/bunni-hub");
     const confFi = path.join(confDir, "/config.json");
     if (fs.existsSync(docDir)) {
         if (!fs.lstatSync(docDir).isDirectory()) {

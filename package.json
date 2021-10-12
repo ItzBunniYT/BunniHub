@@ -6,6 +6,7 @@
   "bin": "./src/hub",
   "repository": "https://github.com/DanningtonSystems/node-hub.git",
   "author": "Daniel Hyders <git@bean.codes>",
+  "Contributors": "Bunni",
   "license": "GPL-3.0-or-later",
   "private": false,
   "scripts": {
@@ -19,6 +20,7 @@
     "open": "^8.2.1",
     "open-editor": "^3.0.0",
     "ping": "^0.4.1",
+    "ssh2-sftp-client": "7.0.4",
     "prompts": "^2.4.1"
   },
   "devDependencies": {
